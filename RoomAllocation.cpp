@@ -17,8 +17,8 @@ int main(){
     int total=0;
     
     int idx1=0, idx2=0;
-    set<int> empty_rooms;
-    map<int,int> alloted_rooms;
+    set<int> empty_rooms;  //stores the rooms that are empty at a time
+    map<int,int> alloted_rooms;  //stors the rooms assigned to different guests
     while(idx1<n){
         if(arr[idx1].first<=dep[idx2].first){
             if(empty_rooms.size()){
