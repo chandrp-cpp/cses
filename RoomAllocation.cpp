@@ -17,7 +17,7 @@ int main(){
     int total=0;
     
     int idx1=0, idx2=0;
-    set<int> empty_rooms;
+    set<int> empty_rooms; //empty rooms
     map<int,int> alloted_rooms;
     while(idx1<n){
         if(arr[idx1].first<=dep[idx2].first){
